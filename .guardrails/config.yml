@@ -1,0 +1,8 @@
+report:
+  pullRequest: 
+    findings: "onAllFiles" #"onChangedLinesOnly"
+notifications:
+  slack:
+    enabled: false
+bundles:
+  - javascript
